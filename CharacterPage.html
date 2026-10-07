@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- TOP BAR -->
+        <header class="top-bar">
+            <button class="btn-back">Back</button>
+            <div class="page-title">Unit Details</div>
+            <div class="currency">
+                <span>💎 12,450</span>
+                <span>🪙 3,892,100</span>
+                <span>🏠</span>
+                <span>☰</span>
+            </div>
+        </header>
+
+        <div class="main-content">
+            
+            <!-- LEFT SIDEBAR NAV -->
+            <nav class="sidebar">
+                <!-- Add 'active' class to the current page item -->
+                <div class="nav-item active" data-target="status">
+                    <div class="icon-placeholder">✨</div> <!-- CHANGE ICON HERE -->
+                    Status
+                </div>
+                <div class="nav-item" data-target="skills">
+                    <div class="icon-placeholder">⚔️</div> <!-- CHANGE ICON HERE -->
+                    Skills
+                </div>
+                <div class="nav-item" data-target="awaken">
+                    <div class="icon-placeholder">⭐</div> <!-- CHANGE ICON HERE -->
+                    Awaken
+                </div>
+                <div class="nav-item" data-target="story">
+                    <div class="icon-placeholder">📖</div> <!-- CHANGE ICON HERE -->
+                    Story
+                </div>
+                <div class="nav-item" data-target="voice">
+                    <div class="icon-placeholder">🔊</div> <!-- CHANGE ICON HERE -->
+                    Voice
+                </div>
+            </nav>
+
+            <!-- MAIN CONTENT AREA -->
+            <main class="content-area">
+                
+                <!-- HERO IMAGE -->
+                <div class="hero-image-container">
+                    <img src="Images/Lux_bg.jpg" alt="Character" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+
+                <!-- CHARACTER HEADER -->
+                <div class="char-header">
+                    <img src="Images/Lux_pfp.jpg" alt="Luxione Icon" class="char-icon">
+                    <div class="char-title-block">
+                        <div class="stars">★★★★★★</div>
+                        <div class="char-name">Luxione</div>
+                        <div class="char-subtitle">The Last Light</div>
+                        
+                        <div class="attr-grid">
+                            <div class="attr-item">
+                                <div class="icon-box">🛡️</div> <!-- CHANGE ICON HERE -->
+                                <span>Class: Mortal (Angel)</span>
+                            </div>
+                            <div class="attr-item">
+                                <div class="icon-box">👼</div> <!-- CHANGE ICON HERE -->
+                                <span>Race: Angel</span>
+                            </div>
+                            <div class="attr-item">
+                                <div class="icon-box">🔥</div> <!-- CHANGE ICON HERE -->
+                                <span>Element: Flame</span>
+                            </div>
+                            <div class="attr-item">
+                                <div class="icon-box">🔴</div> <!-- CHANGE ICON HERE -->
+                                <span>Affinity: Fire</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- QUOTE -->
+                <div class="quote-box">
+                    "I'm going to free Fate. And I'll protect Aria, no matter the cost." <br>— Luxione
+                </div>
+
+                <!-- LEVEL & STATS PANEL -->
+                <div class="panel">
+                    <div class="level-row">
+                        <span>Lv. 100 / 100</span>
+                        <div class="exp-bar"><div class="exp-fill"></div></div>
+                        <span>EXP</span>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-row"><span class="stat-label">❤️ HP</span><span class="stat-val">6,820</span></div>
+                        <div class="stat-row"><span class="stat-label">⚔️ ATK</span><span class="stat-val">4,160</span></div>
+                        <div class="stat-row"><span class="stat-label">🛡️ DEF</span><span class="stat-val">2,940</span></div>
+                        <div class="stat-row"><span class="stat-label">✨ REC</span><span class="stat-val">2,310</span></div>
+                        <div class="stat-row"><span class="stat-label">💨 SPD</span><span class="stat-val">3,020</span></div>
+                        <div class="stat-row"><span class="stat-label">💥 CRIT</span><span class="stat-val">15%</span></div>
+                    </div>
+                </div>
+
+                <!-- EQUIPMENT -->
+                <div class="panel">
+                    <div class="panel-title">Equipment</div>
+                    <div class="equip-grid">
+                        <div class="equip-slot filled">
+                            <div style="font-size: 20px;">⚔️</div> <!-- CHANGE ICON HERE -->
+                            <div class="stars">★★★★★</div>
+                            <div style="font-size: 8px; position: absolute; bottom: 2px; right: 2px;">Lv.50</div>
+                        </div>
+                        <div class="equip-slot">
+                            <div style="font-size: 20px; color: #555;">+</div>
+                        </div>
+                        <div class="equip-slot">
+                            <div style="font-size: 20px; color: #555;">+</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LEADER SKILL -->
+                <div class="panel">
+                    <div class="panel-title">Leader Skill</div>
+                    <div class="skill-item" style="border: none; padding: 0;">
+                        <div class="skill-icon" style="display: flex; align-items: center; justify-content: center; font-size: 20px;">☀️</div> <!-- CHANGE ICON HERE -->
+                        <div class="skill-info">
+                            <div class="skill-name">Last Light's Command</div>
+                            <div class="skill-desc">Increases Fire units' ATK by 40% and critical rate by 15%. Increases Angel units' HP and DEF by 20%.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DESCRIPTION -->
+                <div class="panel">
+                    <div class="panel-title">Description</div>
+                    <div class="desc-text">
+                        Once a fallen angel, Luxione now stands as the temporary king of Eden and the beacon of hope for Aria. Stripped of his wings and cast out, he survived the darkness, cleansed Eden, and now fights to protect a world on the brink of collapse.<br><br>
+                        Guided by the gods and the Mark of the Sun, Luxione's journey is far from over. He will find a worthy successor, free Fate, and face the greater threats that lie ahead.
+                    </div>
+                </div>
+
+                <!-- PIXEL SPRITE -->
+                <div class="panel">
+                    <div class="panel-title">Pixel Sprite</div>
+                    <div class="pixel-grid">
+                        <div>
+                            <div class="pixel-slot">Img</div> <!-- CHANGE IMAGE HERE -->
+                            <div>Idle</div>
+                        </div>
+                        <div>
+                            <div class="pixel-slot">Img</div> <!-- CHANGE IMAGE HERE -->
+                            <div>Walk</div>
+                        </div>
+                        <div>
+                            <div class="pixel-slot">Img</div> <!-- CHANGE IMAGE HERE -->
+                            <div>Run</div>
+                        </div>
+                        <div>
+                            <div class="pixel-slot">Img</div> <!-- CHANGE IMAGE HERE -->
+                            <div>Attack</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SKILLS -->
+                <div class="panel">
+                    <div class="panel-title">Skills <span>Lv. 10 / 10</span></div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon" style="display: flex; align-items: center; justify-content: center; font-size: 20px;">🔆</div> <!-- CHANGE ICON HERE -->
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <span class="skill-name">Normal Attack: Solar Slash</span>
+                            </div>
+                            <div class="skill-desc">Strikes the enemy with a blade of light, dealing Fire damage.</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon" style="display: flex; align-items: center; justify-content: center; font-size: 20px;">🌀</div> <!-- CHANGE ICON HERE -->
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <span class="skill-name">Skill 1: Radiant Edge</span>
+                            </div>
+                            <div class="skill-desc">A flurry of slashes imbued with solar flames, dealing Fire damage to all enemies with a chance to inflict Burn.</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon" style="display: flex; align-items: center; justify-content: center; font-size: 20px;">☀️</div> <!-- CHANGE ICON HERE -->
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <span class="skill-name">Skill 2: Mark of the Sun</span>
+                            </div>
+                            <div class="skill-desc">Increases all allies' ATK and Fire damage for 3 turns, with a chance to cleanse debuffs.</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon" style="display: flex; align-items: center; justify-content: center; font-size: 20px;">🌟</div> <!-- CHANGE ICON HERE -->
+                        <div class="skill-info">
+                            <div class="skill-header">
+                                <span class="skill-name">Brave Burst: Solar Requiem</span>
+                            </div>
+                            <div class="skill-desc">Unleashes the full brilliance of the Last Light, dealing massive Fire damage to all enemies, ignoring a portion of DEF, and greatly increasing all allies' critical rate for 3 turns.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IN-BATTLE ILLUSTRATION -->
+                <div class="panel">
+                    <div class="panel-title">In-Battle Illustration</div>
+                    <div class="illustration-box">
+                        <!-- CHANGE ILLUSTRATION IMAGE HERE -->
+                        Battle Illustration Placeholder
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
